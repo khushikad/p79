@@ -30,6 +30,6 @@ menu_list_array = ["Veg Margherita Pizza",
 
 function add_top(){
 	var item=document.getElementById("add_item").value;
-    menu_list_array.push(sort);
+    menu_list_array.push(item);
 	add_item();
 }
